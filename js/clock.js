@@ -1,8 +1,7 @@
 function realtimeClock()
 {
     var rtClock=new Date();
-    //document.write(rtClock);
-    console.log(rtClock);
+    
 
     var hours=rtClock.getHours();
     var minuts=rtClock.getMinutes();
